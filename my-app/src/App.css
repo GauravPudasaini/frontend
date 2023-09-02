@@ -1,0 +1,53 @@
+.travel-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150VH;
+  background-image: url('meera-pankhania-7cENZhgyf7c-unsplash.jpg');
+  background-size: cover;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.travel-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  width: 98%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.post-button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+}
+button:active{
+  background-color: #04478f;
+  transition: 0.25s;
+}
+
+
